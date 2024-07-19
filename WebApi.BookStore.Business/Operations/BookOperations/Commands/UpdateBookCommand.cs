@@ -4,11 +4,11 @@ namespace WebApi.BookStore.Business.Operations.BookOperations.Commands;
 
 public class UpdateBookCommand
 {
-    private readonly BookStoreDbContext _dbContext;
+    private readonly IBookStoreDbContext _dbContext;
     public UpdateBookModel BookModel { get; set; }
     public int BookId { get; set; }
 
-    public UpdateBookCommand(BookStoreDbContext dbContext)
+    public UpdateBookCommand(IBookStoreDbContext dbContext)
     {
         _dbContext = dbContext;
     }

@@ -22,3 +22,4 @@ C:\Users\test\RiderProjects\WebApi.BookStore\WebApi.BookStore.Data\obj\Debug\net
 C:\Users\test\RiderProjects\WebApi.BookStore\WebApi.BookStore.Data\obj\Debug\net8.0\refint\WebApi.BookStore.Data.dll
 C:\Users\test\RiderProjects\WebApi.BookStore\WebApi.BookStore.Data\obj\Debug\net8.0\WebApi.BookStore.Data.pdb
 C:\Users\test\RiderProjects\WebApi.BookStore\WebApi.BookStore.Data\obj\Debug\net8.0\ref\WebApi.BookStore.Data.dll
+C:\Users\serdar.colak\RiderProjects\WebApi.BookStore\WebApi.BookStore.Data\obj\Debug\net8.0\WebApi.BookStore.Data.sourcelink.json

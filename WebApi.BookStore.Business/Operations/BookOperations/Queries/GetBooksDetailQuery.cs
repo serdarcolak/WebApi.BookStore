@@ -8,14 +8,14 @@ namespace WebApi.BookStore.Business.Operations.BookOperations.Queries;
 
 public class GetBooksDetailQuery
 {
-    private readonly BookStoreDbContext _dbContext;
+    private readonly IBookStoreDbContext _dbContext;
 
     private readonly IMapper _mapper;
     private IValidator<GetGenreDetailQuery> _validatorImplementation;
 
     public int BookId { get; set; }
     
-    public GetBooksDetailQuery(BookStoreDbContext dbContext, IMapper mapper)
+    public GetBooksDetailQuery(IBookStoreDbContext dbContext, IMapper mapper)
     {
         _dbContext = dbContext;
         _mapper = mapper;

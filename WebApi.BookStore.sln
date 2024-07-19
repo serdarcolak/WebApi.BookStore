@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi.BookStore.Data", "We
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi.BookStore.Business", "WebApi.BookStore.Business\WebApi.BookStore.Business.csproj", "{BA216281-E855-4734-91E9-8B646B3A7B42}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi.UnitTests", "WebApi.UnitTests\WebApi.UnitTests.csproj", "{AF1F0141-476E-4120-9C1B-4EBE6B77F434}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{BA216281-E855-4734-91E9-8B646B3A7B42}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BA216281-E855-4734-91E9-8B646B3A7B42}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BA216281-E855-4734-91E9-8B646B3A7B42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF1F0141-476E-4120-9C1B-4EBE6B77F434}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF1F0141-476E-4120-9C1B-4EBE6B77F434}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF1F0141-476E-4120-9C1B-4EBE6B77F434}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF1F0141-476E-4120-9C1B-4EBE6B77F434}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

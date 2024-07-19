@@ -31,6 +31,9 @@ namespace pa_product_api
             });
             
             services.AddDbContext<BookStoreDbContext>(options => options.UseInMemoryDatabase(databaseName: "BookStoreDB"));
+            services.AddScoped<IBookStoreDbContext>(provider => provider.GetService<BookStoreDbContext>());
+            services.AddSingleton<ILoggerService, ConsoleLogger>();
+            services.AddAutoMapper(typeof(MappingProfile));
             
             //CreateBookCommand Fluent Validation
             /*services.AddScoped<IValidator<CreateBookCommand>, CreateBookCommandValidator>();
@@ -38,8 +41,7 @@ namespace pa_product_api
             services.AddScoped<IValidator<CreateGenreCommand>, CreateGenreCommandValidator>();*/
             services.AddValidatorsFromAssemblyContaining<CreateGenreCommandValidator>();
 
-            services.AddSingleton<ILoggerService, ConsoleLogger>();
-            services.AddAutoMapper(typeof(MappingProfile));
+            
 
         }
 

@@ -14,10 +14,10 @@ namespace WebApi.BookStore.Controller
     [ApiController]
     public class GenreConroller : ControllerBase
     {
-        private readonly BookStoreDbContext _context;
+        private readonly IBookStoreDbContext _context;
         private readonly IMapper _mapper;
 
-        public GenreConroller(BookStoreDbContext context, IMapper mapper)
+        public GenreConroller(IBookStoreDbContext context, IMapper mapper)
         {
             _context = context;
             _mapper = mapper;

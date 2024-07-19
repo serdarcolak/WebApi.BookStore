@@ -488,3 +488,4 @@ C:\Users\serdar.colak\RiderProjects\WebApi.BookStore\WebApi.BookStore\bin\Debug\
 C:\Users\serdar.colak\RiderProjects\WebApi.BookStore\WebApi.BookStore\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
 C:\Users\serdar.colak\RiderProjects\WebApi.BookStore\WebApi.BookStore\bin\Debug\net8.0\WebApi.BookStore.Business.dll
 C:\Users\serdar.colak\RiderProjects\WebApi.BookStore\WebApi.BookStore\bin\Debug\net8.0\WebApi.BookStore.Business.pdb
+C:\Users\serdar.colak\RiderProjects\WebApi.BookStore\WebApi.BookStore\obj\Debug\net8.0\WebApi.BookStore.sourcelink.json

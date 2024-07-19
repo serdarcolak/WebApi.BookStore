@@ -3,7 +3,7 @@ using WebApi.BookStore.Data.Model;
 
 namespace WebApi.BookStore.Data.Context;
 
-public class BookStoreDbContext:DbContext
+public class BookStoreDbContext: DbContext,IBookStoreDbContext
 {
     public BookStoreDbContext(DbContextOptions<BookStoreDbContext> options) : base(options){}
     
@@ -12,9 +12,8 @@ public class BookStoreDbContext:DbContext
     public DbSet<Genre> Genres { get; set; }
     
     public DbSet<Author> Authors { get; set; }
-    
-    public List<Book> GetBooksFromDatabase()
+    public int SaveChanges()
     {
-        return Books.ToList();
+        return base.SaveChanges();
     }
 }

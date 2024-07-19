@@ -28,3 +28,4 @@ C:\Users\serdar.colak\RiderProjects\WebApi.BookStore\WebApi.BookStore.Business\o
 C:\Users\serdar.colak\RiderProjects\WebApi.BookStore\WebApi.BookStore.Business\obj\Debug\net8.0\refint\WebApi.BookStore.Business.dll
 C:\Users\serdar.colak\RiderProjects\WebApi.BookStore\WebApi.BookStore.Business\obj\Debug\net8.0\WebApi.BookStore.Business.pdb
 C:\Users\serdar.colak\RiderProjects\WebApi.BookStore\WebApi.BookStore.Business\obj\Debug\net8.0\ref\WebApi.BookStore.Business.dll
+C:\Users\serdar.colak\RiderProjects\WebApi.BookStore\WebApi.BookStore.Business\obj\Debug\net8.0\WebApi.BookStore.Business.sourcelink.json
